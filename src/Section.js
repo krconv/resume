@@ -9,9 +9,7 @@ const useStyles = makeStyles(theme => ({
   paper: {
     padding: theme.spacing(1)
   },
-  title: {
-    textTransform: "lowercase"
-  }
+  title: {}
 }));
 
 function Section({ title, children }) {
@@ -19,7 +17,9 @@ function Section({ title, children }) {
 
   return (
     <Paper className={classes.paper}>
-      <Typography className={classes.title} variant="h2" gutterBottom>{title}</Typography>
+      <Typography className={classes.title} variant="h2" gutterBottom>
+        {title}
+      </Typography>
       <Box children={children} />
     </Paper>
   );

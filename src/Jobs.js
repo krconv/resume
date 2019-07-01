@@ -11,49 +11,52 @@ function Jobs() {
         where="128 Technology in Burlington, MA"
         when={{ from: "May '18", to: "now" }}
         content={`
-This is some text about 128 Technology, and my role in the organization.
-And this is a summary of my experience.
+Full-time software engineer, originally on Systems (product infrastructure) 
+team, moved to Analytics. Quickly came up to speed, currently building 
+Analytics features and attempting to find and resolve organization-wide 
+problems.
 
-- This is one achomplishment from 128 Technology
-- This is another achomplishment from 128 Technology
-- This is yet another achomplishment from 128 Technology
-          `}
+- Lead a multi-team project to upgrade the CentOS dependency of the product
+- Created and evaluated a concrete direction for the Analytics team
+- Setup a continuously-building Jenkins pipeline to address build problems 24 
+  hours sooner
+- Wrote a framework to manage our Analytics stack for integration testing
+        `}
       />
       <Item
         title="IT Lead"
         where="Come Alive Communications in West Grove, PA (Remote)"
         when={{ from: "Dec '18", to: "now" }}
         content={`
-This is some text about Come Alive, and my role in the organization.
-And this is a summary of my experience.
+Serving as a part-time technical consultant. Work independently for a few hours 
+per week to support Come Alive, learning as I go and building what the business 
+needs.
 
-- This is one achomplishment from Come Alive
-- This is another achomplishment from Come Alive
-          `}
+- Setup and maintained a production-grade translation management system called 
+  Plunet
+- Augmented the system to provide a registration page, a landing page, and our 
+  company branding
+        `}
       />
       <Item
-        title="IT Lead"
-        where="Come Alive Communications in West Grove, PA (Remote)"
-        when={{ from: "Dec '18", to: "now" }}
+        title="Software Intern"
+        where="Minim in Manchester, NH"
+        when={{ from: "Dec '17", to: "Jan '18" }}
         content={`
-This is some text about Come Alive, and my role in the organization.
-And this is a summary of my experience.
+Developed only for a few weeks during my winter school break. This was an awesome
+opportunity to work with a leader that I've respected and admired for a while.
 
-- This is one achomplishment from Come Alive
-- This is another achomplishment from Come Alive
-          `}
+- Made contributions in days after developing in Ruby for my first time
+- Developed an additional method for fingerprinting IoT devices using 
+  periodicities
+        `}
       />
       <Item
-        title="IT Lead"
-        where="Come Alive Communications in West Grove, PA (Remote)"
-        when={{ from: "Dec '18", to: "now" }}
+        title="Others"
         content={`
-This is some text about Come Alive, and my role in the organization.
-And this is a summary of my experience.
-
-- This is one achomplishment from Come Alive
-- This is another achomplishment from Come Alive
-          `}
+Software Intern at WPI UXDM Lab, Resident Advisor at WPI, Software Intern at Jacobs Engineering
+        `}
+        short
       />
     </Section>
   );

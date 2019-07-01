@@ -7,34 +7,34 @@ function SideProjects() {
   return (
     <Section title="Side Projects">
       <Item
-        title="DIY Security Cameras"
+        title="Security Cameras"
         when={{ to: "now" }}
         content={`
-A collection or Raspberry Pis running motion tracking softare.
+Building and assembling Raspberry Pi-based motion cameras for my apartment
         `}
         short
       />
       <Item
-        title="DIY Security Cameras"
-        when={{ to: "now" }}
+        title="128 Lottery"
+        when={{ to: "June '19" }}
         content={`
-A collection or Raspberry Pis running motion tracking softare.
+A joke site using Jenkins builds to create fake lottery "winners"
         `}
         short
       />
       <Item
-        title="DIY Security Cameras"
-        when={{ to: "now" }}
+        title="Remote Garage Opener"
+        when={{ to: "Jan '19" }}
         content={`
-A collection or Raspberry Pis running motion tracking softare.
+Connected a Raspberry Pi to an RF-remote to open a garage over the Internet
         `}
         short
       />
       <Item
-        title="DIY Security Cameras"
-        when={{ to: "now" }}
+        title="LED Desk Sign"
+        when={{ to: "Aug '18" }}
         content={`
-A collection or Raspberry Pis running motion tracking softare.
+A matrix of LEDs that show an alert for lunch at 128 Technology
         `}
         short
       />

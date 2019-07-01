@@ -8,9 +8,10 @@ function Interests() {
   return (
     <Section title="Interests">
       <Typography variant="body1" gutterBottom>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit.
+        effective communication, productivity, biking, DIY, home automation,
+        people, management, React, Raspberry Pi, networking, IoT, the little
+        things, Python, science, Minecraft, skiing, creativity, leaders,
+        business, traveling
       </Typography>
     </Section>
   );

@@ -10,8 +10,10 @@ const useStyles = makeStyles(theme => ({
     marginTop: theme.spacing(1)
   },
   title: {
-    marginRight: theme.spacing(1),
     display: "inline"
+  },
+  space: {
+    marginRight: "3px"
   },
   where: {
     display: "inline"
@@ -21,7 +23,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-function Item({ title, where, when, short = false, content }) {
+function Item({ title, where, when = {}, short = false, content }) {
   const classes = useStyles();
 
   let timestamp;
@@ -37,6 +39,7 @@ function Item({ title, where, when, short = false, content }) {
         <Typography className={classes.title} variant="h3">
           {title}
         </Typography>
+        <span className={classes.space}>&nbsp;</span>
         {!short ? (
           <Typography className={classes.where} variant="body1">
             {where}

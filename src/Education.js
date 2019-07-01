@@ -13,8 +13,8 @@ function Education() {
       content={`
 *Bachelor of Science in Computer Science*, 3.95 GPA 
 
-- This is one achomplishment from WPI
-- This is another achomplishment from WPI
+- Learned from and advised 100+ first-year students as a Resident Advisor
+- Participated in Pep Band, WPI LEAD, Manufacturing Shop, Flag Football, and Upsilon Pi Epsilon
       `}
     />
     </Section>
