@@ -2,6 +2,10 @@
 
 This is a simple web-based app using React that I've created for my resume.
 
+[Download PDF](https://github.com/krconv/resume/releases/latest/download/Kodey.Converse.Resume.pdf)
+
+[View Site](https://krconv.github.io/resume/)
+
 ## Run Locally
 
 ```bash
