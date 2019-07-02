@@ -11,14 +11,14 @@ function Jobs() {
         where="128 Technology in Burlington, MA"
         when={{ from: "May '18", to: "now" }}
         content={`
-Full-time software engineer in networking industry, started with Systems team 
+Full-time software engineer in the networking industry, started with Systems team 
 (product infrastructure), moved to Analytics (team of 2) about 8 months later. 
-Also spend time finding and trying out new ideas to improve our company.
+Also, spend time finding and trying out new ideas to improve our company.
 
 - Lead a multi-team project to upgrade the CentOS dependency of the product
 - Created and evaluated a concrete direction for the Analytics team
 - Setup a continuously-building Jenkins pipeline to address build problems 24 
-  hours sooner
+  hours sooner than before
 - Wrote a framework to manage our Analytics stack for integration testing
         `}
       />
@@ -40,7 +40,7 @@ a few hours per week, learning as I go and building what the business needs.
         where="Minim in Manchester, NH"
         when={{ from: "Dec '17", to: "Jan '18" }}
         content={`
-Full-time intern for a few weeks during my winter break with a 7-person start up.
+Full-time intern for a few weeks during my winter break with a 7-person startup.
 
 - Made contributions quickly after developing in Ruby for my first time
 - Developed an additional method for fingerprinting IoT devices using 
