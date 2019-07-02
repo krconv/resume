@@ -9,9 +9,9 @@ function Interests() {
     <Section title="Interests">
       <Typography variant="body1" gutterBottom>
         effective communication, productivity, biking, DIY, home automation,
-        people, management, React, Raspberry Pi, networking, IoT, the little
-        things, Python, science, Minecraft, skiing, creativity, leaders,
-        business, traveling
+        people, management, React, Raspberry Pi, networking, IoT, big picture,
+        Python, science, Minecraft, skiing, creativity, leaders, business,
+        traveling, diversity
       </Typography>
     </Section>
   );

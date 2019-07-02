@@ -11,10 +11,9 @@ function Jobs() {
         where="128 Technology in Burlington, MA"
         when={{ from: "May '18", to: "now" }}
         content={`
-Full-time software engineer, originally on Systems (product infrastructure) 
-team, moved to Analytics. Quickly came up to speed, currently building 
-Analytics features and attempting to find and resolve organization-wide 
-problems.
+Full-time software engineer in networking industry, started with Systems team 
+(product infrastructure), moved to Analytics (team of 2) about 8 months later. 
+Also spend time finding and trying out new ideas to improve our company.
 
 - Lead a multi-team project to upgrade the CentOS dependency of the product
 - Created and evaluated a concrete direction for the Analytics team
@@ -28,14 +27,12 @@ problems.
         where="Come Alive Communications in West Grove, PA (Remote)"
         when={{ from: "Dec '18", to: "now" }}
         content={`
-Serving as a part-time technical consultant. Work independently for a few hours 
-per week to support Come Alive, learning as I go and building what the business 
-needs.
+Part-time technical consultant for a translation company. Work independently for 
+a few hours per week, learning as I go and building what the business needs.
 
-- Setup and maintained a production-grade translation management system called 
-  Plunet
-- Augmented the system to provide a registration page, a landing page, and our 
-  company branding
+- Setup a production-ready translation management system called Plunet
+- Augmented Plunet to create a registration and a landing page with our company 
+  branding
         `}
       />
       <Item
@@ -43,12 +40,12 @@ needs.
         where="Minim in Manchester, NH"
         when={{ from: "Dec '17", to: "Jan '18" }}
         content={`
-Developed only for a few weeks during my winter school break. This was an awesome
-opportunity to work with a leader that I've respected and admired for a while.
+Full-time intern for a few weeks during my winter break with a 7-person start up.
 
-- Made contributions in days after developing in Ruby for my first time
+- Made contributions quickly after developing in Ruby for my first time
 - Developed an additional method for fingerprinting IoT devices using 
   periodicities
+- Created a tool to automate the process of flashing home routers using PhantomJS
         `}
       />
       <Item

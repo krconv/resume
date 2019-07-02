@@ -10,7 +10,7 @@ function SideProjects() {
         title="Security Cameras"
         when={{ to: "now" }}
         content={`
-Building and assembling Raspberry Pi-based motion cameras for my apartment
+Some Raspberry Pi-based motion cameras for my apartment
         `}
         short
       />
@@ -26,7 +26,7 @@ A joke site using Jenkins builds to create fake lottery "winners"
         title="Remote Garage Opener"
         when={{ to: "Jan '19" }}
         content={`
-Connected a Raspberry Pi to an RF-remote to open a garage over the Internet
+A Raspberry Pi connected to an RF-remote to open a garage over the Internet
         `}
         short
       />

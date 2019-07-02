@@ -17,7 +17,7 @@ function Section({ title, children }) {
 
   return (
     <Paper className={classes.paper}>
-      <Typography className={classes.title} variant="h2" gutterBottom>
+      <Typography variant="h2" gutterBottom>
         {title}
       </Typography>
       <Box children={children} />

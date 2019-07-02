@@ -27,7 +27,6 @@ const theme = createMuiTheme({
       fontWeight: "300"
     }
   },
-  shadows: ["none", "1px 1px 7px -2px rgba(0,0,0,0.2)"],
   shape: {
     borderRadius: "1px"
   }
@@ -35,8 +34,7 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles({
   page: {
-    width: "8.5in",
-    height: "11in"
+    width: "8.5in"
   }
 });
 
