@@ -12,7 +12,7 @@ const theme = createMuiTheme({
   typography: {
     fontFamily: ["Open Sans", "Calibri", "sans-serif"].join(","),
     h1: {
-      fontSize: "3rem",
+      fontSize: "2.8rem",
       fontWeight: "100"
     },
     h2: {
