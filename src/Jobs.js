@@ -39,8 +39,11 @@ Part-time technical consultant for a translation company.
         content={`
 Part-time intern for a user-experience research lab specializing in eye-tracking.
 
--	Wrote software for recording and analyzing eye movement using C#, Vuejs and Tobii hardware SDK 
+- Worked towards creating tools that would bring eye tracking into the WPI classroom
+-	Wrote an eye movement recording and analysis tool using C#, Vuejs and Tobii hardware SDK 
+- Collaborated with researchers to gather feedback and continue to iterate on the software
 -	Managed sprints, features, and testing using GitLab issues with CI to improve communication and consistency
+- Showed off eye-tracking tools and games at Dell EMC Eureka! to spark ideas with local middle-school students
         `}
       />
       <Item
@@ -50,7 +53,6 @@ Part-time intern for a user-experience research lab specializing in eye-tracking
         content={`
 Full-time intern for a few weeks during a school winter break with a 7-person startup.
 
-- Learned Ruby and contributed quickly, delivering on the first day
 - Developed a feature to capture additional network behavior data now used to identify new types of devices
 - Added a new router to the existing flashing tool using PhantomJS to support additional customer deployments
         `}
@@ -63,8 +65,6 @@ Full-time intern for a few weeks during a school winter break with a 7-person st
 Full-time intern on a team of 6 engineers building aerial mission planning software.
 
 - Operated autonomously to design, implement and test product code with C#, C++, WPF, and TFS
--	Communicated the status of my work effectively in daily Scrum meetings, resolving over 100 issues
--	Continued to develop remotely part-time throughout the following school year 
 -	Designed and built a standalone tool for determining whether compiled mission files were up to date
        `}
       />
