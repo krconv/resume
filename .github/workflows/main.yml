@@ -11,12 +11,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Setup Node.js
-      uses: actions/setup-node@v1
+    - uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - name: Build and Deploy
-      run: |
-        npm install
-        npm run build
-        npm run deploy
+    - uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./build
